@@ -10,13 +10,15 @@ public class ALGOP_02 {
     System.out.println("Gross cost : " + grossCost + "\n" + "Net cost: " + netCost);
   }
 
-  public static void main(String[] args) {
+  public static void main(String[] args)
+  {
     int rate, callLength;
     double grossCost, vat, netCostA, netCostB;
     rate = 4;
     vat = 1.12;
 
-    while (true) {
+    while (true)
+    {
       // Inputs are time of call and length of call
       Scanner in = new Scanner(System.in);
 
@@ -36,20 +38,19 @@ public class ALGOP_02 {
       grossCost = rate * callLength;
 
       // Evaluates the input of time wherein A = day & B = night
-      if (time.equalsIgnoreCase("A")) 
+      if (time.equalsIgnoreCase("A"))
       {
-        // if length of call is greater than 60 minutes then call be will discounted 15%
-        if (callLength > 60) 
+        // if length of call is greater than 60 minutes then call be will be discounted 15%
+        if (callLength > 60)
         {
           netCostA = (grossCost * 0.85) * vat;
-          outputCost(grossCost, netCostA);
         }
         // if call length is not greater than 60 minutes then call will have no discount
         else 
         {
           netCostA = grossCost + vat;
-          outputCost(grossCost, netCostA);
         }
+        outputCost(grossCost, netCostA);
       }
       // Conditions for night calls
       else if (time.equalsIgnoreCase("B"))
@@ -57,13 +58,12 @@ public class ALGOP_02 {
         if (callLength > 60) 
         {
           netCostB = (grossCost * 0.50 * 0.85) * vat;
-          outputCost(grossCost, netCostB);
         }
         else 
         {
           netCostB = (grossCost * 0.50) * vat;
-          outputCost(grossCost, netCostB);
         }
+        outputCost(grossCost, netCostB);
       } 
     }
   }
