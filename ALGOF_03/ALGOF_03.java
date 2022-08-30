@@ -6,8 +6,10 @@ package ALGOF_03;
 import java.util.*;
 import java.lang.Math;
 
-public class ALGOF_03 {
-    public static void main(String[] args) {
+public class ALGOF_03
+{
+    public static void main(String[] args)
+    {
         Scanner input = new Scanner(System.in); // Initialization of input
 
         /* x is the input of the user, sum is the sum of the harmonic values of x, geoMean is the mean
@@ -38,7 +40,6 @@ public class ALGOF_03 {
             // Asks for another input from the user wherein if number 0 is pressed, loop will break
             System.out.println("Enter another number to proceed or enter 0 to exit: ");
             x = input.nextInt(); // Another input of the user
-
         }
         // Output of the geometrical and harmonic mean
         System.out.println("Number of typed numbers: " + n);
