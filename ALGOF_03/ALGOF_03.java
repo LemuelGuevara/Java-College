@@ -26,12 +26,14 @@ public class ALGOF_03 {
         {
             n++; // Counter of given numbers wherein every typed number will be counted
 
-            geoProduct = geoProduct * x; // The product of geoProduct multiplied by the values of x
-            geoMean = ((Math.pow(geoProduct, 1.0 / n)) * 100) / 100.0; // Geometric mean multiplied and divided by 100 to round off
+            // Formula for the geometric mean
+            geoProduct = geoProduct * x;
+            geoMean = ((Math.pow(geoProduct, 1.0 / n)) * 100) / 100.0;
 
-            harmoValue = ((1 / x) * 100) / 100.0; // Quotient of 1 / x value then multiplied and divided by 100 to round off digits
-            sum = ((sum + harmoValue) * 100) / 100.0 ; // Sum of harmonic values multiplied and divided by 100 in order to round off
-            harmoMean = ((n / sum) * 100) / 100.0; // Quotient of n / sum multiplied by 100 then divided by 100 for rounding off
+            // Formulas for harmonic mean
+            harmoValue = ((1 / x) * 100) / 100.0;
+            sum = ((sum + harmoValue) * 100) / 100.0 ;
+            harmoMean = ((n / sum) * 100) / 100.0;
 
             // Asks for another input from the user wherein if number 0 is pressed, loop will break
             System.out.println("Enter another number to proceed or enter 0 to exit: ");
