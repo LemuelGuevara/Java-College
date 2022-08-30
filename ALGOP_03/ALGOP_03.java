@@ -54,10 +54,6 @@ public class ALGOP_03 {
         {
           rate = 20.65;
         }
-        grossCharge = Math.ceil(weight * rate * distanceCost);
-        totalCharge = grossCharge + vat;
-
-        outputCharge(grossCharge, totalCharge);
       }
       // Evaluation for package type b
       if (packageType.equalsIgnoreCase("b"))
@@ -73,11 +69,11 @@ public class ALGOP_03 {
         {
           rate = 23.65;
         }
-        grossCharge = Math.ceil(weight * rate * distanceCost);
-        totalCharge = grossCharge + vat;
-
-        outputCharge(grossCharge, totalCharge);
       }
+      grossCharge = Math.ceil(weight * rate * distanceCost);
+      totalCharge = grossCharge + vat;
+
+      outputCharge(grossCharge, totalCharge);
     }
   }
 }
