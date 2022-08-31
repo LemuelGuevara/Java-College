@@ -13,7 +13,7 @@ public class ALGOP_02 {
   public static void main(String[] args)
   {
     int rate, callLength;
-    double grossCost, vat, netCostA, netCostB;
+    double grossCost, vat, netCost = 0, netCostA, netCostB;
     rate = 4;
     vat = 1.12;
 
@@ -44,13 +44,14 @@ public class ALGOP_02 {
         if (callLength > 60)
         {
           netCostA = (grossCost * 0.85) * vat;
+          netCost = netCostA;
         }
         // if call length is not greater than 60 minutes then call will have no discount
         else 
         {
           netCostA = grossCost + vat;
+          netCost = netCostA;
         }
-        outputCost(grossCost, netCostA);
       }
       // Conditions for night calls
       else if (time.equalsIgnoreCase("B"))
@@ -58,13 +59,15 @@ public class ALGOP_02 {
         if (callLength > 60) 
         {
           netCostB = (grossCost * 0.50 * 0.85) * vat;
+          netCost = netCostB;
         }
         else 
         {
           netCostB = (grossCost * 0.50) * vat;
+          netCost = netCostB;
         }
-        outputCost(grossCost, netCostB);
-      } 
+      }
+      outputCost(grossCost, netCost);
     }
   }
 }
