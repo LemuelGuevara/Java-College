@@ -13,15 +13,13 @@ public class ALGOF_02
     {
         Scanner input = new Scanner(System.in);
 
-        // Initialization of variables
+        // Declaration of variables
         int a, b, x, i = 0;
         double y, z, t;
 
-        // Input for the a and b values
-        System.out.println("Enter value of a for upper range: ");
-        a = input.nextInt();
-        System.out.println("Enter value of b for lower range");
-        b = input.nextInt();
+        // Initialization of variable a and b
+        a = 50;
+        b = 20;
 
         // Input for the angle
         System.out.println("Enter degree(t): ");
