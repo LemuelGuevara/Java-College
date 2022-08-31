@@ -7,8 +7,10 @@ package ALGOF_02;
 import java.lang.Math;
 import java.util.*;
 
-public class ALGOF_02 {
-    public static void main(String[] args) {
+public class ALGOF_02
+{
+    public static void main(String[] args)
+    {
         Scanner input = new Scanner(System.in);
 
         // Initialization of variables

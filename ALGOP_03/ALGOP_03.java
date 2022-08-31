@@ -15,7 +15,7 @@ public class ALGOP_03 {
   public static void main(String[] args) {
     // Initialization of variables
     int weight, distance;
-    double grossCharge, distanceCost, rate, vat = 0.90, totalCharge;
+    double grossCharge , distanceCost, rate = 0, vat = 0.90, totalCharge;
     String packageType;
 
     // Inputs
@@ -45,26 +45,14 @@ public class ALGOP_03 {
       if (packageType.equalsIgnoreCase("a")) {
         if (weight <= 5) {
           rate = 10.50;
-          grossCharge = Math.ceil(weight * rate * distanceCost);
-          totalCharge = grossCharge + vat;
-
-          outputCharge(grossCharge, totalCharge);
         }
         else if (weight >= 5 && weight <= 10)
         {
           rate = 15.75;
-          grossCharge = Math.ceil(weight * rate * distanceCost);
-          totalCharge = grossCharge + vat;
-
-          outputCharge(grossCharge, totalCharge);
         }
         else if (weight >= 10 && weight <= 20)
         {
           rate = 20.65;
-          grossCharge = Math.ceil(weight * rate * distanceCost);
-          totalCharge = grossCharge + vat;
-
-          outputCharge(grossCharge, totalCharge);
         }
       }
       // Evaluation for package type b
@@ -72,28 +60,20 @@ public class ALGOP_03 {
       {
         if (weight <= 5) {
           rate = 11.75;
-          grossCharge = Math.ceil(weight * rate * distanceCost);
-          totalCharge = grossCharge + vat;
-
-          outputCharge(grossCharge, totalCharge);
         }
         else if (weight >= 5 && weight <= 10)
         {
           rate = 18.50;
-          grossCharge = Math.ceil(weight * rate * distanceCost);
-          totalCharge = grossCharge + vat;
-
-          outputCharge(grossCharge, totalCharge);
         }
         else if (weight >= 10 && weight <= 20)
         {
           rate = 23.65;
-          grossCharge = Math.ceil(weight * rate * distanceCost);
-          totalCharge = grossCharge + vat;
-
-          outputCharge(grossCharge, totalCharge);
         }
       }
+      grossCharge = Math.ceil(weight * rate * distanceCost);
+      totalCharge = grossCharge + vat;
+
+      outputCharge(grossCharge, totalCharge);
     }
   }
 }
