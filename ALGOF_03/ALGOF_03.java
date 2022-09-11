@@ -17,7 +17,7 @@ public class ALGOF_03
         and harmoMean is harmonica mean of x values */
 
         // Initialization of variables
-        double x, n = 0, sum = 0, geoMean = 1, geoProduct = 1, harmoValue,  harmoMean = 1;
+        double x, n = 0, geoProduct = 1, geoMean = 1, harmoSum = 0, harmoMean = 1;
 
         // Asks for the user input of
         System.out.println("Enter number: ");
@@ -31,11 +31,12 @@ public class ALGOF_03
             // Formula for the geometric mean
             geoProduct = geoProduct * x;
             geoMean = ((Math.pow(geoProduct, 1.0 / n)) * 100) / 100.0;
+            System.out.println("geoP = " + geoProduct + "\ngeoM = " + geoMean);
 
             // Formulas for harmonic mean
-            harmoValue = ((1 / x) * 100) / 100.0;
-            sum = ((sum + harmoValue) * 100) / 100.0 ;
-            harmoMean = ((n / sum) * 100) / 100.0;
+            harmoSum = ((harmoSum + (1 / x)) * 100) / 100.0 ;
+            harmoMean = ((n / harmoSum) * 100) / 100.0;
+            System.out.println("harmoS = " + harmoSum + "\nharmoM = " + harmoMean);
 
             // Asks for another input from the user wherein if number 0 is pressed, loop will break
             System.out.println("Enter another number to proceed or enter 0 to exit: ");

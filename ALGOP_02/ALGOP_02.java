@@ -49,7 +49,7 @@ public class ALGOP_02 {
         // if call length is not greater than 60 minutes then call will have no discount
         else 
         {
-          netCostA = grossCost + vat;
+          netCostA = grossCost * vat;
           netCost = netCostA;
         }
       }

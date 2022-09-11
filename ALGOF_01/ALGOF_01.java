@@ -6,25 +6,21 @@ package ALGOF_01;
  */
 import java.util.*;
 
-public class ALGOF_01 {
-    public static void main(String[] args) {
+public class ALGOF_01
+{
+    public static void main(String[] args)
+    {
         Scanner input = new Scanner(System.in);
 
-        int hotCount = 0, plseCount = 0, coldCount = 0;
-        int sen = -999;
+        int temp, hotCount = 0, plseCount = 0, coldCount = 0;
 
         // Input for the temperature
-        while (true) {
-            // Input for the temperature
-            System.out.println("Enter temperature: ");
-            int temp = input.nextInt();
+        System.out.println("Enter temperature: ");
+        temp = input.nextInt();
 
-            // Condition wherein if temp is -999, program will end
-            if (temp == sen)
-            {
-                break;
-            }
-            else if (temp > 85)
+        while (temp != -999)
+        {
+            if (temp > 85)
             {
                 System.out.println(temp + " is a hot day");
                 hotCount++;
@@ -39,9 +35,12 @@ public class ALGOF_01 {
                 System.out.println(temp + " is a cold day");
                 coldCount++;
             }
-            // Output of temperature days
-            String days = String.format("\nThere are %d hotdays, %d pleasant days, and %d cold days", hotCount, plseCount, coldCount);
-            System.out.println(days);
+            // Asks for another input of temperature
+            System.out.println("Enter another temperature or type -999 to exit: ");
+            temp = input.nextInt();
         }
+        // Output of temperature days
+        String days = String.format("\nThere are %d hotdays, %d pleasant days, and %d cold days", hotCount, plseCount, coldCount);
+        System.out.println(days);
     }
 }
