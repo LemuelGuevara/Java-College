@@ -12,6 +12,7 @@ public class MathAnglePhi
     // Function for rounding off values to 4 significant figures
     public static double roundOff(double value)
     {
+
         return round(value*10000.0) / 10000.0;
     }
 
@@ -54,6 +55,6 @@ public class MathAnglePhi
         angle = atan((m2 - m1) / (a1 * a2 + b1 * b2));
 
         // Output
-        System.out.println("Angle formed between line 1 and line 2: " + roundOff(toDegrees(angle)));
+        System.out.println("Angle formed between line 1 and line 2: " + toDegrees(angle));
     }
 }

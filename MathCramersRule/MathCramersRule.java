@@ -36,6 +36,7 @@ public class MathCramersRule
         a2 = in.nextDouble();
         System.out.println("Enter a3: ");
         a3 = in.nextDouble();
+
         // Elements (b)
         System.out.println("Enter Elements (b)\n");
         System.out.println("Enter b1: ");
@@ -44,6 +45,7 @@ public class MathCramersRule
         b2 = in.nextDouble();
         System.out.println("Enter b3: ");
         b3 = in.nextDouble();
+
         // Elements (c)
         System.out.println("Enter Elements (c)\n");
         System.out.println("Enter c1: ");
