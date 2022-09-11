@@ -9,13 +9,6 @@ import static java.lang.Math.*;
 
 public class MathAnglePhi
 {
-    // Function for rounding off values to 4 significant figures
-    public static double roundOff(double value)
-    {
-
-        return round(value*10000.0) / 10000.0;
-    }
-
     public static void main(String[] args)
     {
         // Declaration and initialization of variables
