@@ -35,7 +35,7 @@ public class MP2
         // Program description prompt
         System.out.println("This java program will solve the values of x, y, and z given a, b, and t,\n" +
                 "where t is an angle in degrees. Use the given formulas. Make sure to display\n" +
-                "the computed values.");
+                "the computed values.\n");
 
         // Inputs
         System.out.println("Enter value (a): ");
