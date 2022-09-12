@@ -71,7 +71,8 @@ public class MathForces
 
         // Resultant force
         resultantForce = sqrt(pow(xSum, 2) + pow(ySum, 2));
-        // Direction
+
+        // Resultant direction
         resultantDirection = atan(ySum / xSum); // Inverse tangent of ySum/xSum
         resultantDirection = toDegrees(resultantDirection); // Converts the inverse tangent of d (in radians) into degrees
 
