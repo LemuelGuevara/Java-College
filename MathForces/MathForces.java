@@ -70,11 +70,10 @@ public class MathForces
         ySum = magnitude1 * sin(toRadians(direction1)) + magnitude2 * sin(toRadians(direction2));
 
         // Resultant force
-        resultantForce = sqrt(pow(xSum, 2) + pow(ySum, 2));
+        resultantForce = hypot(xSum, ySum); // Pythagoras theorem
 
         // Resultant direction
-        resultantDirection = atan(ySum / xSum); // Inverse tangent of ySum/xSum
-        resultantDirection = toDegrees(resultantDirection); // Converts the inverse tangent of d (in radians) into degrees
+        resultantDirection = toDegrees(atan(ySum / xSum)); // Converts to degrees the inverse tangent of ySum/xSum
 
         // Outputs of resultant force and direction
         System.out.println("Resultant force: " + roundOff(resultantForce));
