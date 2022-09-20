@@ -26,15 +26,15 @@ public class ConditionalBearing
         {
             System.out.println(trueBearingPrompt + "N " + tB + " E");
         }
-        else if (tB < 360 && tB > 180)
+        if (tB < 360 && tB > 180)
         {
             System.out.println(trueBearingPrompt + "N " + (360-tB) + " W");
         }
-        else if (tB < 180 && tB > 90)
+        if (tB < 180 && tB > 90)
         {
             System.out.println(trueBearingPrompt + "S " + (180-tB) + " E");
         }
-        else if (tB < 270 && tB > 180)
+        if (tB < 270 && tB > 180)
         {
             System.out.println(trueBearingPrompt + "S " + (tB-180) + " W");
         }

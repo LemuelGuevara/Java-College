@@ -12,10 +12,7 @@ public class ConditionalNewTelephone
         // Declaration and initialization of variables
         Scanner in = new Scanner(System.in);
 
-        double rate, callLength, grossCost, vat, netCost = 1, netCostA, netCostB;
-
-        rate = 4.0;
-        vat = 1.12;
+        double rate = 4.0, callLength, grossCost, vat = 1.12, netCost = 1, netCostA, netCostB;
 
         // Inputs
         System.out.println("Enter time of call (A for day and B for night, or press any other key to quit): ");

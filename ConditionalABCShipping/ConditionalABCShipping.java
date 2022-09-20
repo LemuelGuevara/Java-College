@@ -5,6 +5,7 @@
 
 package ConditionalABCShipping;
 import java.util.*;
+import static java.lang.Math.*;
 
 public class ConditionalABCShipping
 {
@@ -13,7 +14,7 @@ public class ConditionalABCShipping
         // Declaration and initialization of variables
         Scanner in = new Scanner(System.in);
 
-        double weight, distance, grossCharge, distanceCost, rate = 0, vat = 0.90, totalCharge;
+        double weight, distance, grossCharge, distanceCost, rate = 0, vat = 1.1, totalCharge;
         String packageType;
 
         // Inputs
@@ -31,7 +32,7 @@ public class ConditionalABCShipping
         }
         else // if distance is more than 500km
         {
-            distanceCost = distance / 500.0;
+            distanceCost = ceil(distance / 500.0);
         }
 
         // Evaluation for package type a
@@ -41,11 +42,11 @@ public class ConditionalABCShipping
             {
                 rate = 10.50;
             }
-            if (weight >= 5 && weight <= 10)
+            if (weight > 5 && weight <= 10)
             {
                 rate = 15.75;
             }
-            if (weight >= 10 && weight <= 20)
+            if (weight > 10 && weight <= 20)
             {
                 rate = 20.65;
             }
@@ -57,18 +58,18 @@ public class ConditionalABCShipping
             {
                 rate = 11.75;
             }
-            if (weight >= 5 && weight <= 10)
+            if (weight > 5 && weight <= 10)
             {
                 rate = 18.50;
             }
-            if (weight >= 10 && weight <= 20)
+            if (weight > 10 && weight <= 20)
             {
                 rate = 23.65;
             }
         }
         // Computation of gross and total charge
-        grossCharge = (weight * rate * distanceCost);
-        totalCharge = grossCharge + vat;
+        grossCharge = weight * rate * distanceCost;
+        totalCharge = grossCharge * vat;
 
         // Outputs
         System.out.printf("Gross cost: %.2f\n", grossCharge);
