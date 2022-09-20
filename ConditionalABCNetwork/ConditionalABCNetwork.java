@@ -29,15 +29,17 @@ public class ConditionalABCNetwork
         System.out.println("Enter type of call (S, O, I): ");
         callType = in.next().charAt(0);
 
+        callTime = Character.toUpperCase(callTime);
+        callType = Character.toUpperCase(callType);
 
         // Condition if time of call is none of the given choices
-        if (!(callTime == 'D' || callTime == 'N' || callTime == 'd' || callTime == 'n'))
+        if (!(callTime == 'D' || callTime == 'N' ))
         {
             System.out.println("Invalid time of call");
             System.exit(0);
         }
         // Condition if type of call is none of the choices
-        if (!(callType == 'S' || callType == 'N' || callType == 'I' || callType == 's' || callType == 'n' || callType == 'i'))
+        if (!(callType == 'S' || callType == 'I' || callType == 'O'))
         {
             System.out.println("Invalid time of call");
             System.exit(0);
