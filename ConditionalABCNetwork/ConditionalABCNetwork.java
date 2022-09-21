@@ -25,11 +25,11 @@ public class ConditionalABCNetwork
         System.out.println("Enter Time of call (D, N): ");
         callTime = in.next().charAt(0);
         callTime = Character.toUpperCase(callTime);
-        System.out.println("Enter length of call: ");
-        callLength = in.nextDouble();
         System.out.println("Enter type of call (S, O, I): ");
         callType = in.next().charAt(0);
         callType = Character.toUpperCase(callType);
+        System.out.println("Enter length of call: ");
+        callLength = in.nextDouble();
 
         // Condition if time of call is none of the given choices
         if (!(callTime == 'D' || callTime == 'N' ))
@@ -66,17 +66,16 @@ public class ConditionalABCNetwork
 
         // Gross charge
         grossCharge = rate * callLength;
-        // Gross charge before discount and taxes
-        System.out.printf("Gross Charge: %.2f%n", grossCharge);
 
         // Checks if discount is available
-        if (callLength > 20)
+        if (callLength > 20 && callTime == 'N')
             grossCharge *= discount;
 
         // Net charge
         netCharge = grossCharge * vat;
 
-        // Net charge output
+        // Outputs
+        System.out.printf("Gross Charge: %.2f%n", grossCharge);
         System.out.printf("Net Charge: %.2f%n", netCharge);
     }
 }
