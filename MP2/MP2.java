@@ -50,9 +50,9 @@ public class MP2
         x = (10 * pi) / (a + b) * (1.0 / pow(cos(t), 3)) + 3 * log10(abs(pow(a, 2) - pow(b, 2)));
         // Converted to degrees before doing inverse tangent
         // Computation for y value
-        y = ((-1.0) + toDegrees(atan((a + 2.0) / b))) / (1 + exp(a * b)) + (5 * b + pow(a, 2)) / pow(a + (4 * pow(b, 2)), 1.0 / 4.0);
+        y = ((-1.0) + atan((a + 2.0) / b)) / (1 + exp(a * b)) + (5 * b + pow(a, 2)) / pow(a + (4 * pow(b, 2)), 1.0 / 4.0);
         // Computation for z value
-        z = 3.0 / 4.0 * sqrt(abs(x + log10(pow(y, 2)) + x * (1.0 / pow(sin(t), 3))));
+        z = (3.0 / 4.0) * sqrt(abs(x + log10(pow(y, 2)) + x * (1.0 / pow(sin(t), 2))));
 
         // Outputs
         System.out.println("Value of (x): " + roundOff(x));
