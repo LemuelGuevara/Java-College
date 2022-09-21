@@ -24,12 +24,11 @@ public class ConditionalABCNetwork
         // Inputs
         System.out.println("Enter Time of call (D, N): ");
         callTime = in.next().charAt(0);
+        callTime = Character.toUpperCase(callTime);
         System.out.println("Enter length of call: ");
         callLength = in.nextDouble();
         System.out.println("Enter type of call (S, O, I): ");
         callType = in.next().charAt(0);
-
-        callTime = Character.toUpperCase(callTime);
         callType = Character.toUpperCase(callType);
 
         // Condition if time of call is none of the given choices
@@ -41,31 +40,27 @@ public class ConditionalABCNetwork
         // Condition if type of call is none of the choices
         if (!(callType == 'S' || callType == 'I' || callType == 'O'))
         {
-            System.out.println("Invalid time of call");
+            System.out.println("Invalid type of call");
             System.exit(0);
         }
-
-        // Uppercase all inputs for the conditions
-        callTime = Character.toUpperCase(callTime);
-        callType = Character.toUpperCase(callType);
 
         // Conditions
         if (callTime == 'D')
         {
             if (callType == 'S')
                 rate = 6.75;
-            if (callType == 'O')
+            else if (callType == 'O')
                 rate = 8.75;
-            if (callType == 'I')
+            else if (callType == 'I')
                 rate = 26.65;
         }
         if (callTime == 'N')
         {
             if (callType == 'S')
                 rate = 6.25;
-            if (callType == 'O')
+            else if (callType == 'O')
                 rate = 7.50;
-            if (callType == 'I')
+            else if (callType == 'I')
                 rate = 23.30;
         }
 
