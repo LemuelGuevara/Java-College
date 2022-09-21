@@ -42,8 +42,10 @@ public class ALGOP_03 {
         distanceCost = distance / 500.0;
       }
       // Evaluation for package type a
-      if (packageType.equalsIgnoreCase("a")) {
-        if (weight <= 5) {
+      if (packageType.equalsIgnoreCase("a"))
+      {
+        if (weight <= 5)
+        {
           rate = 10.50;
         }
         else if (weight >= 5 && weight <= 10)
@@ -58,7 +60,8 @@ public class ALGOP_03 {
       // Evaluation for package type b
       if (packageType.equalsIgnoreCase("b"))
       {
-        if (weight <= 5) {
+        if (weight <= 5)
+        {
           rate = 11.75;
         }
         else if (weight >= 5 && weight <= 10)
