@@ -1,19 +1,59 @@
 package Test;
 import static java.lang.Math.*;
+import java.util.*;
 
 public class Test {
     public static void main(String[] args) {
-        double a, b, c, m, n, t, z;
 
-        a = 2.3;
-        b = 3.4;
-        c = 2.1;
-        t = 32;
+        //Declaring a variable for switch expression
+        int year = 3;
+        int marks = 80;
+        switch(year) //Switch expression
+        {
+            //Case statements
+            case 1:
+                System.out.println("First year students are not eligible for scholarship ");
+                break;
+            case 2:
+                System.out.println("Second year students are not eligible for scholarship");
+                break;
+            case 3:
+                switch(marks)
+                {
+                    case 50:
+                        System.out.println("You are not eligible for scholarship");
+                        break;
+                    case 80:
+                        System.out.println("Congrats!!!!! you are eligible for scholarship");
+                        break;
+                }
+                break;
+            //Default case statement
+            default: System.out.println("Please enter valid year");
+        }
 
-        m = sqrt(2*a*a+2*c*c-pow(b,2));
-        n = log10(c*c*c*c) - 2*b*c*cos(t*3.1416/180);
-        z = (3*tan(2*t*3.1416/180)+log(a))/(b+c);
-
-        System.out.println("m = " + m + " n = " + n + " z = " + z);
+//        int a = 1;
+//
+//        int [][] integers = {
+//                {3, 5, 7},
+//                {10, 2, 9},
+//                {1, 3, 5}
+//        };
+//
+//        for (int i = 1; i < 3; i++)
+//        {
+//            for (int j = 1; j < integers[i].length; j++)
+//            {
+//                System.out.print(integers[i][j] + " ");
+//
+//                if (i == j)
+//                {
+//                    a *= integers[j][i];
+//                }
+//            }
+//
+//            System.out.println();
+//        }
+//        System.out.println(a);
     }
 }
