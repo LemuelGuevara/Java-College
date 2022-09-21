@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="de08f941-9c6d-4fdb-9585-f715150b8f24" name="Changes" comment="Completed (Formative Switch)">
+      <change afterPath="$PROJECT_DIR$/SwitchABCBNetwork/SwitchABCNetwork.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SwitchBroker/SwitchBroker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SwitchSoftware/SwitchSoftware.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace-Lemuel’s MacBook Air.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ALGOP_03/ALGOP_03.java" beforeDir="false" afterPath="$PROJECT_DIR$/ALGOP_03/ALGOP_03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BASIC_102_01/BASIC_102_01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConditionalABCShipping/ConditionalABCShipping.java" beforeDir="false" afterPath="$PROJECT_DIR$/ConditionalABCShipping/ConditionalABCShipping.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConditionalBearing/ConditionalBearing.java" beforeDir="false" afterPath="$PROJECT_DIR$/ConditionalBearing/ConditionalBearing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConditionalNewTelephone/ConditionalNewTelephone.java" beforeDir="false" afterPath="$PROJECT_DIR$/ConditionalNewTelephone/ConditionalNewTelephone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Projects.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP2/MP2.java" beforeDir="false" afterPath="$PROJECT_DIR$/MP2/MP2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Projects/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Projects/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Projects/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Projects/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Projects/.idea/workspace-Lemuel’s MacBook Air.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Projects/ALGOF_01/ALGOF_01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Projects/ALGOF_02/ALGOF_02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Projects/ALGOF_03/ALGOF_03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Projects/ALGOP_01/ALGOP_01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Projects/ALGOP_02/ALGOP_02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Projects/ALGOP_03/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Projects/ALGOP_03/.idea/ALGOP_03.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Projects/ALGOP_03/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Projects/ALGOP_03/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Projects/ALGOP_03/.idea/sonarlint/issuestore/1/7/1705dce014d5f678739457d4e01fbc474043cc82" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Projects/ALGOP_03/.idea/sonarlint/issuestore/index.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Projects/ALGOP_03/ALGOP_03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Projects/ALGOP_03/ALGOP_03.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Projects/ALGOP_03/out/production/ALGOP_03/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Projects/ALGOP_03/out/production/ALGOP_03/.idea/ALGOP_03.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Projects/ALGOP_03/out/production/ALGOP_03/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Projects/ALGOP_03/out/production/ALGOP_03/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Projects/ALGOP_03/out/production/ALGOP_03/.idea/sonarlint/issuestore/1/7/1705dce014d5f678739457d4e01fbc474043cc82" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Projects/ALGOP_03/out/production/ALGOP_03/.idea/sonarlint/issuestore/index.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Projects/ALGOP_03/out/production/ALGOP_03/ALGOP_03.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Projects/BASIC_102_01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Projects/BASIC_102_01/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Projects/Java Projects.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Projects/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Projects/Test/Test.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="PARALLEL_COMPILATION" value="false" />
+    <option name="COMPILER_PROCESS_HEAP_SIZE" value="4000" />
+    <option name="COMPILER_PROCESS_ADDITIONAL_VM_OPTIONS" value="4000" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/BASIC_102_11/BASIC_102_11.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BASIC_102_14/BASIC_102_14.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ConditionalNewTelephone/ConditionalNewTelephone.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MathAnglePhi/MathAnglePhi.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MathCramersRule/MathCramersRule.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MathForces/MathForces.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MathObliqueTriangle/MathObliqueTriangle.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MathProb1/MathProb1.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MathRtTriangle/MathRtTriangle.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Test/Test.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="18" />
+  </component>
+  <component name="ProjectId" id="2E7HyFxHBzAni4zGbtJh9rX7TgB" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;temurin-17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Lemue/Desktop/Dropbox/Java-College&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.scopes&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="de08f941-9c6d-4fdb-9585-f715150b8f24" name="Changes" comment="" />
+      <created>1661939954608</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1661939954608</updated>
+      <workItem from="1661939956737" duration="45000" />
+      <workItem from="1661942310871" duration="175000" />
+      <workItem from="1661942500789" duration="34000" />
+      <workItem from="1661942555391" duration="27000" />
+      <workItem from="1661943015184" duration="44000" />
+      <workItem from="1661943072656" duration="8000" />
+      <workItem from="1661943614241" duration="642000" />
+      <workItem from="1661946426721" duration="16204000" />
+      <workItem from="1662053039978" duration="20000" />
+      <workItem from="1662075768473" duration="1923000" />
+      <workItem from="1662077733916" duration="147000" />
+      <workItem from="1662077888468" duration="381000" />
+      <workItem from="1662104862959" duration="64000" />
+      <workItem from="1662105066338" duration="31000" />
+      <workItem from="1662116017505" duration="631000" />
+      <workItem from="1662204833434" duration="9167000" />
+      <workItem from="1662295123487" duration="6000" />
+      <workItem from="1662365721956" duration="2736000" />
+      <workItem from="1662539281911" duration="9000" />
+      <workItem from="1662563285379" duration="600000" />
+      <workItem from="1662639842727" duration="1509000" />
+      <workItem from="1662663718184" duration="1291000" />
+      <workItem from="1662695608665" duration="27000" />
+      <workItem from="1662701280916" duration="10805000" />
+      <workItem from="1662713529721" duration="35631000" />
+      <workItem from="1662863947866" duration="21782000" />
+      <workItem from="1662901832683" duration="4141000" />
+      <workItem from="1662906070040" duration="1706000" />
+      <workItem from="1662979876471" duration="357000" />
+      <workItem from="1662986153506" duration="8000" />
+      <workItem from="1662990371380" duration="64000" />
+      <workItem from="1662990540484" duration="299000" />
+      <workItem from="1663030299278" duration="3245000" />
+      <workItem from="1663037462377" duration="1441000" />
+      <workItem from="1663065251923" duration="353000" />
+      <workItem from="1663065632224" duration="581000" />
+      <workItem from="1663066222836" duration="827000" />
+      <workItem from="1663067563768" duration="59000" />
+      <workItem from="1663067656113" duration="197000" />
+      <workItem from="1663068088613" duration="93000" />
+      <workItem from="1663068219436" duration="31000" />
+      <workItem from="1663068272354" duration="17000" />
+      <workItem from="1663068297948" duration="50000" />
+      <workItem from="1663068357652" duration="82000" />
+      <workItem from="1663068497792" duration="26000" />
+      <workItem from="1663068534294" duration="141000" />
+      <workItem from="1663068690623" duration="51000" />
+      <workItem from="1663068770250" duration="144000" />
+      <workItem from="1663068924421" duration="114000" />
+      <workItem from="1663070235907" duration="195000" />
+      <workItem from="1663070450100" duration="436000" />
+      <workItem from="1663070893626" duration="72000" />
+      <workItem from="1663071019899" duration="62000" />
+      <workItem from="1663071092741" duration="288000" />
+      <workItem from="1663071442832" duration="314000" />
+      <workItem from="1663071813535" duration="1327000" />
+      <workItem from="1663120760777" duration="266000" />
+      <workItem from="1663121035624" duration="28000" />
+      <workItem from="1663125619331" duration="224000" />
+      <workItem from="1663129962321" duration="5209000" />
+      <workItem from="1663138559614" duration="159000" />
+      <workItem from="1663139415427" duration="235000" />
+      <workItem from="1663140258062" duration="168000" />
+      <workItem from="1663152416202" duration="56000" />
+      <workItem from="1663152706348" duration="45000" />
+      <workItem from="1663152787416" duration="54000" />
+      <workItem from="1663152868500" duration="41000" />
+      <workItem from="1663152920349" duration="16000" />
+      <workItem from="1663153133483" duration="38000" />
+      <workItem from="1663153200605" duration="70000" />
+      <workItem from="1663161594427" duration="26000" />
+      <workItem from="1663161629811" duration="49000" />
+      <workItem from="1663163736576" duration="16000" />
+      <workItem from="1663163757316" duration="34000" />
+      <workItem from="1663165595844" duration="758000" />
+      <workItem from="1663184186427" duration="27000" />
+      <workItem from="1663184336983" duration="28000" />
+      <workItem from="1663206534234" duration="3000" />
+      <workItem from="1663206577187" duration="54000" />
+      <workItem from="1663206636906" duration="248000" />
+      <workItem from="1663207104130" duration="24000" />
+      <workItem from="1663207132892" duration="214000" />
+      <workItem from="1663207353087" duration="171000" />
+      <workItem from="1663207529551" duration="140000" />
+      <workItem from="1663233271858" duration="15000" />
+      <workItem from="1663255934934" duration="12000" />
+      <workItem from="1663255955963" duration="18000" />
+      <workItem from="1663255984612" duration="75000" />
+      <workItem from="1663256068150" duration="494000" />
+      <workItem from="1663266775849" duration="848000" />
+      <workItem from="1663301706553" duration="275000" />
+      <workItem from="1663304319188" duration="52000" />
+      <workItem from="1663330558279" duration="37000" />
+      <workItem from="1663453726903" duration="45000" />
+      <workItem from="1663453779260" duration="179000" />
+      <workItem from="1663453969786" duration="58000" />
+      <workItem from="1663500618366" duration="4888000" />
+      <workItem from="1663569320428" duration="2998000" />
+      <workItem from="1663572390385" duration="287000" />
+      <workItem from="1663572686826" duration="1208000" />
+      <workItem from="1663584244004" duration="5715000" />
+      <workItem from="1663606526234" duration="2466000" />
+      <workItem from="1663613051338" duration="59000" />
+      <workItem from="1663669596226" duration="49000" />
+      <workItem from="1663669651509" duration="109000" />
+      <workItem from="1663669773649" duration="123000" />
+      <workItem from="1663670042457" duration="329000" />
+      <workItem from="1663670384304" duration="23000" />
+      <workItem from="1663670544386" duration="202000" />
+      <workItem from="1663670754572" duration="92000" />
+      <workItem from="1663670854552" duration="222000" />
+      <workItem from="1663671084843" duration="1054000" />
+      <workItem from="1663680188006" duration="2571000" />
+      <workItem from="1663685646539" duration="2310000" />
+      <workItem from="1663691109252" duration="187000" />
+      <workItem from="1663691304907" duration="52000" />
+      <workItem from="1663691364927" duration="158000" />
+      <workItem from="1663691532079" duration="537000" />
+      <workItem from="1663692077636" duration="54000" />
+      <workItem from="1663692153416" duration="63000" />
+      <workItem from="1663692228489" duration="167000" />
+      <workItem from="1663692403544" duration="77000" />
+      <workItem from="1663692529690" duration="11000" />
+      <workItem from="1663692545764" duration="476000" />
+      <workItem from="1663693229335" duration="257000" />
+      <workItem from="1663693493276" duration="36000" />
+    </task>
+    <task id="LOCAL-00001" summary="Made variables &quot;a&quot; and &quot;b&quot; a constant">
+      <created>1661942777829</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1661942777829</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Made variables &quot;a&quot; and &quot;b&quot; a constant">
+      <created>1661943022840</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1661943022840</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Completed">
+      <created>1662903146328</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1662903146328</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Completed">
+      <created>1662903160044</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1662903160044</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Completed (Coding Formative)">
+      <created>1662904033396</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1662904033396</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Completed (Math Class Coding Formative)">
+      <created>1662904080423</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1662904080423</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Completed (Math Class Coding Formative)">
+      <created>1662905014197</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1662905014197</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Completed (Math Class Coding Formative)">
+      <created>1662905863530</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1662905863530</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Completed (Math Class Coding Formative)">
+      <created>1662909089728</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1662909089728</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Made code cleaner and more understandable">
+      <created>1662963083236</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1662963083236</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Made code cleaner and more understandable">
+      <created>1662963200952</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1662963200952</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Made code cleaner and more understandable">
+      <created>1662963369438</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1662963369438</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Completed (Machine Problem 02 Math Class)">
+      <created>1662978902162</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1662978902162</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Completed (Machine Problem 02 Math Class)">
+      <created>1662978938838</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1662978938838</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Completed (Formative Strings)">
+      <created>1663505475187</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1663505475187</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Completed (Formative Conditionals)">
+      <created>1663505496585</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1663505496585</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Completed (Formative Conditionals 02)">
+      <created>1663590269344</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1663590269344</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Completed (Formative Conditionals 02) &#10;Fixed char conditions (update)">
+      <created>1663672094604</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1663672094604</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Completed (Formative Switch)">
+      <created>1663687718642</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1663687718642</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Made variables &quot;a&quot; and &quot;b&quot; a constant" />
+    <MESSAGE value="Completed" />
+    <MESSAGE value="Completed (Coding Formative)" />
+    <MESSAGE value="Completed (Math Class Coding Formative)" />
+    <MESSAGE value="Made code cleaner and more understandable" />
+    <MESSAGE value="Completed (Machine Problem 02 Math Class)" />
+    <MESSAGE value="Completed (Formative Strings)" />
+    <MESSAGE value="Completed (Formative Conditionals)" />
+    <MESSAGE value="Completed (Formative Conditionals 02)" />
+    <MESSAGE value="Completed (Formative Conditionals 02) &#10;Fixed char conditions (update)" />
+    <MESSAGE value="Completed (Formative Switch)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed (Formative Switch)" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ArithmeticException" package="java.lang" />
+          <option name="timeStamp" value="73" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ConditionalBearing/ConditionalBearing.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ConditionalBearing/ConditionalBearing.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ConditionalBearing/ConditionalBearing.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ConditionalBearing/ConditionalBearing.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ConditionalABCShipping/ConditionalABCShipping.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ConditionalABCShipping/ConditionalABCShipping.java</url>
+          <line>70</line>
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ConditionalABCShipping/ConditionalABCShipping.java</url>
+          <line>71</line>
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ConditionalABCShipping/ConditionalABCShipping.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ConditionalABCShipping/ConditionalABCShipping.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="82" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Java_College$Test.ic" NAME="Test Coverage Results" MODIFIED="1663067586948" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Test.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Java_College$MathConversion.ic" NAME="MathConversion Coverage Results" MODIFIED="1663068962675" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>MathConversion.*</FILTER>
+    </SUITE>
+  </component>
+</project>

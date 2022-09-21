@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cb61cab8-3502-4910-acb4-9ef53c1cc066" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/ALGOP_02/ALGOP_02.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ALGOP_03/ALGOP_03.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2DvyDtSuAqD4At3czm3kFLd1PHr" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Project.color&quot;: &quot;1e0f47&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-18&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/lemuelguevara/Library/CloudStorage/OneDrive-ust.edu.ph/Java Projects&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
+    &quot;settings.editor.splitter.proportion&quot;: &quot;0.28818443&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/Formative 01" />
+      <recent name="$PROJECT_DIR$/out" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cb61cab8-3502-4910-acb4-9ef53c1cc066" name="Changes" comment="" />
+      <created>1661593738541</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1661593738541</updated>
+      <workItem from="1661593742269" duration="394000" />
+      <workItem from="1661594149851" duration="172000" />
+      <workItem from="1661594333712" duration="39000" />
+      <workItem from="1661594403045" duration="12000" />
+      <workItem from="1661594457474" duration="208000" />
+      <workItem from="1661594677679" duration="138000" />
+      <workItem from="1661594829494" duration="137000" />
+      <workItem from="1661595167913" duration="67000" />
+      <workItem from="1661595244405" duration="5875000" />
+      <workItem from="1661601224703" duration="19000" />
+      <workItem from="1661601276917" duration="154000" />
+      <workItem from="1661601443974" duration="1114000" />
+      <workItem from="1661602572277" duration="5431000" />
+      <workItem from="1661611239575" duration="111000" />
+      <workItem from="1661611362626" duration="193000" />
+      <workItem from="1661611575779" duration="102000" />
+      <workItem from="1661611698326" duration="11000" />
+      <workItem from="1661611720567" duration="984000" />
+      <workItem from="1661612888799" duration="43000" />
+      <workItem from="1661613022366" duration="769000" />
+      <workItem from="1661613804904" duration="96000" />
+      <workItem from="1661613913316" duration="173000" />
+      <workItem from="1661614098820" duration="183000" />
+      <workItem from="1661614298902" duration="52000" />
+      <workItem from="1661614364692" duration="2737000" />
+      <workItem from="1661618031877" duration="98000" />
+      <workItem from="1661618155631" duration="251000" />
+      <workItem from="1661618510319" duration="129000" />
+      <workItem from="1661618645125" duration="137000" />
+      <workItem from="1661618787661" duration="14000" />
+      <workItem from="1661689594838" duration="475000" />
+      <workItem from="1661690440299" duration="5454000" />
+      <workItem from="1661765134211" duration="229000" />
+      <workItem from="1661788317310" duration="8000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
