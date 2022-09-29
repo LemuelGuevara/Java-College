@@ -23,10 +23,8 @@ public class MathForces
         double resultantForce, magnitude1, magnitude2, resultantDirection, xSum, ySum, direction1, direction2 ;
 
         // Program description prompt
-        System.out.println("This program prompts the user to enter an hourly pay rate and asks for number of hours\n" +
-                "user works in a week. The program then outputs income before and after taxes, the money\n" +
-                "the user spends on clothes and accessories, money spent in school supplies, money to buy\n" +
-                "savings bonds, and money the parents of the user spend to buy additional saving bonds.\n");
+        System.out.println("This program will ask a user to input the magnitude and direction (in degrees between 0 and 360) of 2 forces. Then\n" +
+                "the program will compute and display the magnitude of the resultant and its direction (in degrees).\n");
 
         // Get inputs
         // Magnitude and direction for the first force
