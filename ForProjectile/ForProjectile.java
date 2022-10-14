@@ -1,16 +1,13 @@
-/*
-* This program displays the x and y projectile with an interval of 0 to 5 seconds
-* */
-
-package WhileProjectile;
+package ForProjectile;
 
 import java.util.*;
+
 import static java.lang.Math.*;
 
-
-public class WhileProjectile
+public class ForProjectile
 {
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
         // Initialization and declaration of variables
         Scanner in = new Scanner(System.in);
 
@@ -35,8 +32,8 @@ public class WhileProjectile
         x = initialVelocity * time * cos(theta);
         y = initialVelocity * time * sin(theta);
 
-        // While loop
-        while (ctr <= 5)
+        // For loop
+        for (int i = 0; i <= 5; i++)
         {
             System.out.printf("%8.2f", x);
             System.out.printf("%20.2f%n", y);
