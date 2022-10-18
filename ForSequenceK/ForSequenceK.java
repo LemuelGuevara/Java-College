@@ -37,7 +37,7 @@ public class ForSequenceK
             else
             {
                 aN = (3 * aN) + 1;
-                System.out.print(aN + " 75");
+                System.out.print(aN + " ");
             }
             // Counts n terms
             k++;
