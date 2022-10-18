@@ -1,10 +1,11 @@
-package WhileTaylorPolynomial;
+package ForTaylorPolynomial;
 
-import java.util.*;
+import java.util.Scanner;
 
-import static java.lang.Math.*;
+import static java.lang.Math.pow;
+import static java.lang.Math.round;
 
-public class WhileTaylorPolynomial
+public class ForTaylorPolynomial
 {
     public static void main(String[] args)
     {
@@ -22,7 +23,8 @@ public class WhileTaylorPolynomial
         // Factorial formula:
         // factorial *= i;
         System.out.println("Term " + ctr + " : " + ctr);
-        while (ctr <= n) {
+        // For loop
+        for (ctr = 1 ;ctr <= n; ctr++) {
             // Gets power
             power = pow(x, ctr);
             // Factorial
@@ -35,7 +37,6 @@ public class WhileTaylorPolynomial
 
             // Sum of all terms (taylor polynomial)
             taylorPoly += term;
-            ctr++;
         }
         // The sum of the taylor polynomial is added by 1
         System.out.println("\nTaylor Polynomial: " + round((taylorPoly + 1) * 100.0) / 100.0);
