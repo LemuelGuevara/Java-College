@@ -1,3 +1,11 @@
+/*
+* Name: Guevara, Lemuel John D.
+* Section: 1CSD
+*
+* This program is a text editor that sets a character input from the user
+* into the desired coordinates in the map coordinates
+* */
+
 package TextMapCoordinates;
 
 import java.util.*;
