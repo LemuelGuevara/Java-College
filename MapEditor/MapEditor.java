@@ -6,7 +6,7 @@
 * into the desired coordinates in the map coordinates
 * */
 
-package TextMapCoordinates;
+package MapEditor;
 
 import java.util.*;
 
