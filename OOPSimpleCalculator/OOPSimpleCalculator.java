@@ -15,6 +15,7 @@ class MathFunctions
     private double integer, integerA, integerB;
     private final char FUNCTION_CHOICE;
 
+    // Constructors
     public MathFunctions(char FUNCTION_CHOICE, double integer)
     {
         this.FUNCTION_CHOICE = FUNCTION_CHOICE;
@@ -27,6 +28,8 @@ class MathFunctions
         this.integerA = integerA;
         this.integerB = integerB;
     }
+
+    /* Arithmetic Functions */
 
     public double add()
     {
@@ -47,6 +50,8 @@ class MathFunctions
     {
         return integerA / integerB;
     }
+
+    /* Non-Arithmetic Functions */
 
     public double powerInteger(int exponent)
     {
@@ -73,6 +78,7 @@ class MathFunctions
         return tan(toRadians(integer));
     }
 
+    // Function choices is evaluated here then returns the given function and its results
     public double getMathFunction()
     {
         double mathFunction = 0;
@@ -110,6 +116,7 @@ class MathFunctions
 
 public class OOPSimpleCalculator
 {
+    // Checks if wanted function is arithmetic or not then returns a boolean
     public static boolean isArithmetic(int choiceInput)
     {
         boolean isArithmeticFunction = false;
@@ -122,6 +129,7 @@ public class OOPSimpleCalculator
         return isArithmeticFunction;
     }
 
+    // Checks if program will still continue then returns a boolean
     public static boolean checkContinuity(char choice)
     {
         boolean isContinuity = false;
@@ -134,6 +142,7 @@ public class OOPSimpleCalculator
         return isContinuity;
     }
 
+    // Prints all the choices of the calculator
     public static void printFunctionChoices()
     {
         System.out.println("\n---ARITHMETIC FUNCTIONS---" +
@@ -154,51 +163,65 @@ public class OOPSimpleCalculator
         {
             printFunctionChoices();
 
+            // Input if desired function is arithmetic or not
             System.out.print("\nPress (0) for arithmetic functions if not press (1): ");
             choiceInput = in.nextInt();
 
+            // Choice input is only between 0  and 1 if not program will terminate
             if (!(choiceInput == 0 || choiceInput == 1))
             {
                 System.out.println("Invalid choice.");
                 System.exit(0);
             }
 
+            // If choiceInput is arithmetic
             if (isArithmetic(choiceInput))
             {
                 System.out.println("\nA - Addition" + "\nB - Subtraction" + "\nC - Multiplication" + "\nD - Division");
 
                 double integerA, integerB;
 
+                // Gets the function choice above
                 functionChoice = in.next().charAt(0);
                 functionChoice = Character.toUpperCase(functionChoice);
 
+                // Asks for 2 integers
                 System.out.print("\nEnter integer (a) and integer (b): ");
                 integerA = in.nextDouble();
                 integerB = in.nextDouble();
 
+                // Makes an object of the MathFunctions class then prints out the results
                 MathFunctions arithmeticFunctions = new MathFunctions(functionChoice, integerA, integerB);
                 System.out.printf("%.2f", arithmeticFunctions.getMathFunction());
             }
+
+            // If choiceInput is not arithmetic
             else
             {
                 System.out.println("\nE - Exponent" + "\nF - nth-Root" + "\nG - Sine" + "\nH - Cosine" + "\nI - Tangent");
 
                 double integer;
 
+                // Gets the function choice above
                 functionChoice = in.next().charAt(0);
                 functionChoice = Character.toUpperCase(functionChoice);
 
+                // Only asks for a single integer
                 System.out.print("Enter integer: ");
                 integer = in.nextDouble();
 
-                MathFunctions arithmeticFunctions = new MathFunctions(functionChoice, integer);
-                System.out.printf("%.2f", arithmeticFunctions.getMathFunction());
+                // Makes an object of the MathFunctions class
+                MathFunctions nonArithmeticFunctions = new MathFunctions(functionChoice, integer);
+                System.out.printf("%.2f", nonArithmeticFunctions.getMathFunction());
             }
 
+            // Asks if user wants to continue the program or not
             System.out.println("\nType (y) to continue, type (n) to stop: ");
             continuityChoice = in.next().charAt(0);
             continuityChoice = Character.toUpperCase(continuityChoice);
 
+            // Returns the boolean value of the checkContinuity method
+            // if true then program will loop if not program will terminate
             isContinuous = checkContinuity(continuityChoice);
 
         } while (isContinuous);
