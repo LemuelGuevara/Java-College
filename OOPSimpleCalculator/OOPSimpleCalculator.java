@@ -94,12 +94,15 @@ class MathFunctions
             case 'D': mathFunction = divide();
                 break;
             case 'E':
+                System.out.print("Enter exponent: ");
                 int exponent = in.nextInt();
 
                 mathFunction = powerInteger(exponent);
                 break;
             case 'F':
+                System.out.print("Enter exponent: ");
                 int nthExponent = in.nextInt();
+
                 mathFunction = nthRoot(nthExponent);
                 break;
             case 'G': mathFunction = sinAngle();
