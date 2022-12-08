@@ -72,7 +72,7 @@ class LineType
     {
         String operatorSign;
 
-        if (integer < 0)
+        if (integer > 0)
             operatorSign = " + ";
         else
             operatorSign = " - ";
