@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="de08f941-9c6d-4fdb-9585-f715150b8f24" name="Changes" comment="Completed (Formatives Looping Structures Methods)">
+      <change afterPath="$PROJECT_DIR$/Array1DTemperatures/Array1DTemperatures.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MP3/MP3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MP4/MP4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/Test2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ALGOF_03/ALGOF_03.java" beforeDir="false" afterPath="$PROJECT_DIR$/ALGOF_03/ALGOF_03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-College/ALGOF_03/ALGOF_03.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-College/ALGOF_03/ALGOF_03.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-College/MathForces/MathForces.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-College/MathForces/MathForces.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-College/SwitchSoftware/SwitchSoftware.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-College/SwitchSoftware/SwitchSoftware.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-College/Test/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-College/Test/Test.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/BASIC_102_11/BASIC_102_11.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BASIC_102_14/BASIC_102_14.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ConditionalNewTelephone/ConditionalNewTelephone.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MathAnglePhi/MathAnglePhi.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MathCramersRule/MathCramersRule.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MathForces/MathForces.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MathObliqueTriangle/MathObliqueTriangle.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MathProb1/MathProb1.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MathRtTriangle/MathRtTriangle.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Test/Test.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2F2cghtNf9BueGmAc1MQUAwKiLK" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;temurin-17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Lemue/Desktop/Java Projects&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="de08f941-9c6d-4fdb-9585-f715150b8f24" name="Changes" comment="Completed (Formative Switch)" />
+      <created>1663693732618</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1663693732618</updated>
+      <workItem from="1663693733814" duration="148000" />
+      <workItem from="1663696771441" duration="39000" />
+      <workItem from="1663696988174" duration="5911000" />
+      <workItem from="1663702965627" duration="8000" />
+      <workItem from="1663703013117" duration="2031000" />
+      <workItem from="1663734959285" duration="5671000" />
+      <workItem from="1663762968610" duration="9000" />
+      <workItem from="1663781232861" duration="159000" />
+      <workItem from="1663837336232" duration="2981000" />
+      <workItem from="1663852447829" duration="2000" />
+      <workItem from="1663858887937" duration="13000" />
+      <workItem from="1663873099939" duration="396000" />
+      <workItem from="1663905101752" duration="115000" />
+      <workItem from="1663907542810" duration="698000" />
+      <workItem from="1663941140059" duration="6000" />
+      <workItem from="1664025474997" duration="34000" />
+      <workItem from="1664219912487" duration="169000" />
+      <workItem from="1664343186937" duration="1308000" />
+      <workItem from="1664411225205" duration="1149000" />
+      <workItem from="1664420213488" duration="3938000" />
+      <workItem from="1664450331624" duration="945000" />
+      <workItem from="1664451770309" duration="8000" />
+      <workItem from="1664465589374" duration="1599000" />
+      <workItem from="1664625603183" duration="515000" />
+      <workItem from="1664774769112" duration="14458000" />
+      <workItem from="1664801104290" duration="3000" />
+      <workItem from="1664822092606" duration="2109000" />
+      <workItem from="1664836710053" duration="11000" />
+      <workItem from="1664840353356" duration="973000" />
+      <workItem from="1664877503269" duration="597000" />
+      <workItem from="1664879474627" duration="466000" />
+      <workItem from="1664880045827" duration="597000" />
+      <workItem from="1664883113208" duration="597000" />
+      <workItem from="1664982265236" duration="11000" />
+      <workItem from="1665067641899" duration="422000" />
+      <workItem from="1665087563605" duration="9000" />
+      <workItem from="1665330366591" duration="156000" />
+      <workItem from="1665333813975" duration="28000" />
+      <workItem from="1665333958693" duration="179000" />
+      <workItem from="1665550977364" duration="330000" />
+      <workItem from="1665553226181" duration="2201000" />
+      <workItem from="1665559027345" duration="18000" />
+      <workItem from="1665564350576" duration="703000" />
+      <workItem from="1665646549138" duration="14224000" />
+      <workItem from="1665680728602" duration="242000" />
+      <workItem from="1665724588612" duration="4121000" />
+      <workItem from="1665753003146" duration="3181000" />
+      <workItem from="1665999379446" duration="631000" />
+      <workItem from="1666020102961" duration="17000" />
+      <workItem from="1666098928133" duration="4950000" />
+      <workItem from="1666113378585" duration="21913000" />
+      <workItem from="1666268617445" duration="10406000" />
+      <workItem from="1666437485435" duration="3917000" />
+      <workItem from="1666504137054" duration="355000" />
+      <workItem from="1666581895548" duration="7398000" />
+      <workItem from="1666813569392" duration="1263000" />
+      <workItem from="1666851191520" duration="96000" />
+      <workItem from="1667304542211" duration="8000" />
+      <workItem from="1667304755621" duration="181000" />
+      <workItem from="1667573976996" duration="726000" />
+      <workItem from="1667822151375" duration="1570000" />
+      <workItem from="1668005321813" duration="25000" />
+      <workItem from="1668312334728" duration="206000" />
+      <workItem from="1668654104381" duration="10683000" />
+    </task>
+    <task id="LOCAL-00001" summary="Completed (Formative Conditionals, needs improvement)">
+      <created>1663704507804</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1663704507804</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Completed (Formative Switch)">
+      <created>1663704537883</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1663704537883</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Completed (Formative Conditionals, removed spaghetti code)">
+      <created>1663737393270</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1663737393270</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Completed (Machine Problem 02, fixed formatting)">
+      <created>1663737446625</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1663737446625</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Completed (Fixed formatting)">
+      <created>1663737516421</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1663737516421</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Removed">
+      <created>1663737732694</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1663737732694</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Added">
+      <created>1663737766608</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1663737766608</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Test">
+      <created>1663737786505</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1663737786505</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Completed (Formatives Switch)">
+      <created>1663737897817</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1663737897817</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Completed (Formatives Conditionals, fixed discount condition)">
+      <created>1663741049538</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1663741049538</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Completed (Formatives Switch)">
+      <created>1663840345325</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1663840345325</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Completed (Formatives User Defined Methods)">
+      <created>1664422432219</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1664422432219</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Completed (Formatives User Defined Methods)">
+      <created>1664422450136</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1664422450136</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Completed (Formatives Math Class, fixed desc prompt)">
+      <created>1664424010449</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1664424010449</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Completed (Formatives User Defined Methods)">
+      <created>1664424026993</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1664424026993</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Completed (Formatives Looping Structures)">
+      <created>1665662083306</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1665662083306</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Completed (Formatives Looping Structures)">
+      <created>1665664019163</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1665664019163</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Completed (Formatives Looping Structures)">
+      <created>1665668525021</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1665668525021</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Completed (Formatives Looping Structures)">
+      <created>1665673827954</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1665673827954</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Completed (Formatives Looping Structures)">
+      <created>1665754708473</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1665754708473</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Completed (Formatives Looping Structures)">
+      <created>1666101628024</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1666101628024</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Completed (Formatives Sentinel Controlled Loops)">
+      <created>1666103243726</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1666103243726</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Completed (Formatives Looping Structures)">
+      <created>1666115686219</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1666115686219</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Completed (Formatives Looping Structures Methods)">
+      <created>1666440163812</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1666440163812</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Completed (Formatives Looping Structures Methods)">
+      <created>1666589040545</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1666589040545</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Completed (Formative Conditionals, needs improvement)" />
+    <MESSAGE value="Completed (Formative Switch)" />
+    <MESSAGE value="Completed (Formative Conditionals, removed spaghetti code)" />
+    <MESSAGE value="Completed (Machine Problem 02, fixed formatting)" />
+    <MESSAGE value="Completed (Fixed formatting)" />
+    <MESSAGE value="Removed" />
+    <MESSAGE value="Added" />
+    <MESSAGE value="Test" />
+    <MESSAGE value="Completed (Formatives Conditionals, fixed discount condition)" />
+    <MESSAGE value="Completed (Formatives Switch)" />
+    <MESSAGE value="Completed (Formatives Math Class, fixed desc prompt)" />
+    <MESSAGE value="Completed (Formatives User Defined Methods)" />
+    <MESSAGE value="Completed (Formatives Sentinel Controlled Loops)" />
+    <MESSAGE value="Completed (Formatives Looping Structures)" />
+    <MESSAGE value="Completed (Formatives Looping Structures Methods)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed (Formatives Looping Structures Methods)" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="17" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Java_College$Test.ic" NAME="Test Coverage Results" MODIFIED="1663067586948" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Test.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Java_College$Array1DTemperatures.ic" NAME="Array1DTemperatures Coverage Results" MODIFIED="1668659856577" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Array1DTemperatures.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Java_College$MathConversion.ic" NAME="MathConversion Coverage Results" MODIFIED="1663068962675" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>MathConversion.*</FILTER>
+    </SUITE>
+  </component>
+</project>
