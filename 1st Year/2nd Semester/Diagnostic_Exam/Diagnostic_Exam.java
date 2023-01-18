@@ -69,6 +69,28 @@ public class Diagnostic_Exam
         return arrayC;
     }
 
+    // Gets the sum of an array
+    public static int getArraySum(int[] array)
+    {
+
+        int sum = 0;
+
+        for (int j : array)
+            sum += j;
+
+        return sum;
+    }
+
+    // Gets the average of an array
+    public static double getArrayAverage(int[] array, int arraySum)
+    {
+        double average;
+
+        average = (double) arraySum / array.length;
+
+        return average;
+    }
+
     // Checks if the program is continuous
     public static boolean isContinuous(char userChoice)
     {
@@ -87,6 +109,9 @@ public class Diagnostic_Exam
         int[] arrayA;
         int[] arrayB;
         int[] arrayC;
+
+        int arrayASum, arrayBSum, arrayCSum;
+        double arrayAMean, arrayBMean, arrayCMean;
 
         char userChoice;
         int integerX;
@@ -111,6 +136,28 @@ public class Diagnostic_Exam
             printArray(arrayB);
             System.out.print("\nArray C:");
             printArray(arrayC);
+
+            // Gets the sums and averages of every array
+            arrayASum = getArraySum(arrayA);
+            arrayAMean = getArrayAverage(arrayA, arrayASum);
+
+            arrayBSum = getArraySum(arrayB);
+            arrayBMean = getArrayAverage(arrayB, arrayBSum);
+
+            arrayCSum = getArraySum(arrayC);
+            arrayCMean = getArrayAverage(arrayC, arrayCSum);
+
+            // Prints the averages and sums of every array
+            System.out.println("\nSums and averages of every array:");
+
+            System.out.println("\nArray A:");
+            System.out.println("Sum: " + arrayASum + "\n" + "Average: " + arrayAMean);
+
+            System.out.println("\nArray B:");
+            System.out.println("Sum: " + arrayBSum + "\n" + "Average: " + arrayBMean);
+
+            System.out.println("\nArray C:");
+            System.out.println("Sum: " + arrayCSum + "\n" + "Average: " + arrayCMean);
 
             // Asks the user if they still want to continue the program
             System.out.println("\nPress Y to continue and press any other key to stop.");
