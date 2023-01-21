@@ -12,10 +12,21 @@ public class Diagnostic_Exam
     {
         int validNumber;
 
-        for(validNumber = in.nextInt(); validNumber < 5 || validNumber > 15; validNumber = in.nextInt())
+        for (validNumber = in.nextInt(); validNumber < 5 || validNumber > 15; validNumber = in.nextInt())
             System.out.print("Invalid integer, range is only from 5 to 15. Please input again.");
 
         return validNumber;
+    }
+
+    // Gets array size
+    public static int getArraySize()
+    {
+        int arraySize;
+
+        for (arraySize = in.nextInt(); arraySize < 1 || arraySize > 50; arraySize = in.nextInt())
+            System.out.println("Invalid array size, range is only from 1 to 50. Please input again.");
+
+        return arraySize;
     }
 
     // Loads random elements in an array
@@ -72,7 +83,6 @@ public class Diagnostic_Exam
     // Gets the sum of an array
     public static int getArraySum(int[] array)
     {
-
         int sum = 0;
 
         for (int j : array)
@@ -104,7 +114,6 @@ public class Diagnostic_Exam
 
     public static void main(String[] args)
     {
-        final int ARRAY_SIZE = 50;
 
         int[] arrayA;
         int[] arrayB;
@@ -114,16 +123,19 @@ public class Diagnostic_Exam
         double arrayAMean, arrayBMean, arrayCMean;
 
         char userChoice;
-        int integerX;
+        int integerX, arraySize;
 
         do
-        {
+        {   // Asks the array size
+            System.out.print("\nEnter array size: ");
+            arraySize = getArraySize();
+
             // Asks the integer x
-            System.out.println("\nEnter an integer within the range of 5 and 15:");
+            System.out.print("\nEnter an integer within the range of 5 and 15: ");
             integerX = validIntegerInput();
 
             // Loads the initial array
-            arrayA = loadArray(ARRAY_SIZE);
+            arrayA = loadArray(arraySize);
 
             // Computes the arrays
             arrayB = loadArrayB(arrayA, integerX);
