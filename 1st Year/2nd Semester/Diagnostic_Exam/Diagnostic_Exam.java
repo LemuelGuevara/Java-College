@@ -46,13 +46,10 @@ public class Diagnostic_Exam
         System.out.println();
         for (int i = 0; i < array.length; i++)
         {
-            if (array[i] != 0)
-            {
-                if (i % 10 == 9)
-                    System.out.println(array[i]);
-                else
-                    System.out.print(array[i] + " \t");
-            }
+            if (i % 10 == 9)
+                System.out.println(array[i]);
+            else
+                System.out.print(array[i] + " \t");
         }
     }
 
@@ -60,7 +57,7 @@ public class Diagnostic_Exam
     public static int[] loadArrayB(int[] arrayA, int integerX)
     {
         int[] arrayB = new int[arrayA.length];
-        
+
         // Computes the arrayB
         for (int i = 0; i < arrayA.length; i++)
             arrayB[i] = arrayA[i] - integerX;
@@ -71,9 +68,18 @@ public class Diagnostic_Exam
     // Copies the elements of arrayB if they are greater or equal to integer x
     public static int[] loadArrayC(int[] arrayB, int integerX)
     {
-        int[] arrayC = new int[arrayB.length];
+        int arraySizeCtr = 0;
 
-        for (int i = arrayB.length - 1; i >= 0; i--)
+        // Counts the elements that are greater than integer x
+        for (int x : arrayB)
+            if (x >= integerX)
+                arraySizeCtr++;
+
+        // Initializes arrayC with the new array size
+        int[] arrayC = new int[arraySizeCtr];
+
+        // Gets the elements that are greater than x then stores in a reverse way
+        for (int i = arrayC.length - 1; i >= 0; i--)
             if (arrayB[i] >= integerX)
                 arrayC[i] = arrayB[i];
 
@@ -114,7 +120,6 @@ public class Diagnostic_Exam
 
     public static void main(String[] args)
     {
-
         int[] arrayA;
         int[] arrayB;
         int[] arrayC;
@@ -170,6 +175,10 @@ public class Diagnostic_Exam
 
             System.out.println("\nArray C:");
             System.out.println("Sum: " + arrayCSum + "\n" + "Average: " + arrayCMean);
+
+            System.out.println(arrayA.length);
+            System.out.println(arrayB.length);
+            System.out.println(arrayC.length);
 
             // Asks the user if they still want to continue the program
             System.out.println("\nPress Y to continue and press any other key to stop.");
