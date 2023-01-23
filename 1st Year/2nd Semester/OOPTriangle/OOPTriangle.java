@@ -41,7 +41,7 @@ class Triangle {
     /* METHODS */
 
     // Gets and returns the triangle type
-    public String checkTriangleType()
+    public String getTriangleType()
     {
         String triangleType = "";
 
@@ -55,34 +55,30 @@ class Triangle {
         return triangleType.toUpperCase();
     }
 
-    // Computes the area and perimeter of given triangle
-    public void computeTriangleAreaPerimeter(String triangleType)
+    public double getTriangleArea()
     {
-        double triangleArea = 0, trianglePerimeter = 0, semiPerimeterScalene;
+        double triangleArea;
 
-        // Gets the semi-perimeter for a scalene triangle
-        semiPerimeterScalene = (getSideA() + getSideB() + getSideC()) / 2;
+        triangleArea = 0.25 * sqrt((getSideA() + getSideB() + getSideC()) * ((-1) * getSideA() + getSideB() + getSideC())
+                * (getSideA() - getSideB() + getSideC()) * (getSideA() + getSideB() - getSideC()));
 
-        if (triangleType.equals("EQUILATERAL"))
-        {
-            triangleArea = (pow(getSideA(), 2) * sqrt(3)) / 4;
-            trianglePerimeter = sqrt((triangleArea * 4) / sqrt(3));
-        }
-        else if (triangleType.equals("ISOSCELES"))
-        {
-            triangleArea = 0.25 * sqrt((getSideA() + getSideB() + getSideC()) * ((-1) * getSideA() + getSideB() + getSideC())
-                    * (getSideA() - getSideB() + getSideC()) * (getSideA() + getSideB() - getSideC()));
-            trianglePerimeter = 2 * getSideA() + getSideB();
-        }
-        else if (triangleType.equals("SCALENE"))
-        {
-            triangleArea = sqrt(semiPerimeterScalene * (semiPerimeterScalene - getSideA()) * (semiPerimeterScalene - getSideB()) *
-                    (semiPerimeterScalene - getSideC()));
-            trianglePerimeter = getSideA() + getSideB() + getSideC();
-        }
+        return triangleArea;
+    }
 
-        System.out.printf("Area of triangle: %.2f%n" ,triangleArea);
-        System.out.printf("Perimeter of triangle: %.2f%n" ,trianglePerimeter);
+    public double getTrianglePerimeter()
+    {
+        double trianglePerimeter;
+
+        trianglePerimeter = getSideA() + getSideB() + getSideC();
+
+        return trianglePerimeter;
+    }
+
+    public void displayOutputs()
+    {
+        System.out.println("\nType of triangle: " + getTriangleType());
+        System.out.printf("Area of triangle: %.2f%n", getTriangleArea());
+        System.out.printf("Perimeter of triangle: %.2f%n", getTrianglePerimeter());
     }
 }
 
@@ -121,7 +117,6 @@ public class OOPTriangle
         Triangle tri = new Triangle();
 
         char userChoice;
-        String triangleType;
 
         do
         {
@@ -145,12 +140,8 @@ public class OOPTriangle
                 System.exit(0);
             }
 
-            // Checks the triangle type
-            triangleType = tri.checkTriangleType();
-            System.out.println("Type of triangle: " + triangleType);
-
             // Solves the area and perimeter of the given triangle
-            tri.computeTriangleAreaPerimeter(triangleType);
+            tri.displayOutputs();
 
             // Asks the user if they still want to continue the program
             System.out.print("\nPress Y to continue and press any other key to stop: ");
