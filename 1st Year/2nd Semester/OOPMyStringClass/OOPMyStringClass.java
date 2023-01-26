@@ -44,7 +44,7 @@ class MyString
             if (charArray[i] == ' ')
                 whiteSpaceIndex = i;
 
-        // Iterates trough the array by using the index of found whitespace
+        // Iterates through the array by using the index of found whitespace
         for (int i = whiteSpaceIndex; i < getCharArrayLength(); i++)
             System.out.print(charArray[i]);
     }
