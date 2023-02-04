@@ -10,6 +10,7 @@
       <sourceFolder url="file://$MODULE_DIR$/2nd Year" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/3rd Year" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/4th Year" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/out" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
