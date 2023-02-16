@@ -1,25 +1,0 @@
-
-b	java:S101
-"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(³ÔÈí
-W
-java:S1854"<Remove this useless assignment to local variable "distance".(™ıŞıÿÿÿÿ
-P
-java:S1854":Remove this useless assignment to local variable "weight".(‘Ü¾ô
-V
-java:S1659"ADeclare "rate" and all following declarations on a separate line.(§é×Y
-F
-java:S1481"+Remove this unused "weight" local variable.(²Æ¼øÿÿÿÿ
-C
-java:S1481"-Remove this unused "distance" local variable.(Çò¤™
-E
-java:S1481"0Remove this unused "grossCharge" local variable.(§é×Y
->
-java:S1481")Remove this unused "rate" local variable.(§é×Y
-=
-java:S1481"(Remove this unused "vat" local variable.(§é×Y
-E
-java:S1481"0Remove this unused "totalCharge" local variable.(§é×Y
-N	java:S106"9Replace this use of System.out or System.err by a logger.(‚®» 
-S	java:S106"9Replace this use of System.out or System.err by a logger.(šÂÍüÿÿÿÿ
-N	java:S106"9Replace this use of System.out or System.err by a logger.(ì‡æÜ
-=	java:S108!")Either remove or fill this block of code.(œç~
