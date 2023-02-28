@@ -1,0 +1,697 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="de08f941-9c6d-4fdb-9585-f715150b8f24" name="Changes" comment="Updated">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-College/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-College/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-College/OOP/PolymorphismQuadrilateral/PolymorphismQuadrilateral.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-College/OOP/PolymorphismQuadrilateral/PolymorphismQuadrilateral.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-College/OOP/PolymorphismQuadrilateral/Quadrilateral.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-College/OOP/PolymorphismQuadrilateral/Quadrilateral.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-College/OOP/PolymorphismQuadrilateral/Trapezoid.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-College/OOP/PolymorphismQuadrilateral/Trapezoid.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Test/Test.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2F2cghtNf9BueGmAc1MQUAwKiLK" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;temurin-17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/lemuelguevara/Library/CloudStorage/Dropbox/Java-College&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.43074173&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode&quot;,
+    &quot;settings.editor.splitter.proportion&quot;: &quot;0.25555557&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="OOP" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="de08f941-9c6d-4fdb-9585-f715150b8f24" name="Changes" comment="Completed (Formative Switch)" />
+      <created>1663693732618</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1663693732618</updated>
+      <workItem from="1663693733814" duration="148000" />
+      <workItem from="1663696771441" duration="39000" />
+      <workItem from="1663696988174" duration="5911000" />
+      <workItem from="1663702965627" duration="8000" />
+      <workItem from="1663703013117" duration="2031000" />
+      <workItem from="1663734959285" duration="5671000" />
+      <workItem from="1663762968610" duration="9000" />
+      <workItem from="1663781232861" duration="159000" />
+      <workItem from="1663837336232" duration="2981000" />
+      <workItem from="1663852447829" duration="2000" />
+      <workItem from="1663858887937" duration="13000" />
+      <workItem from="1663873099939" duration="396000" />
+      <workItem from="1663905101752" duration="115000" />
+      <workItem from="1663907542810" duration="698000" />
+      <workItem from="1663941140059" duration="6000" />
+      <workItem from="1664025474997" duration="34000" />
+      <workItem from="1664219912487" duration="169000" />
+      <workItem from="1664343186937" duration="1308000" />
+      <workItem from="1664411225205" duration="1149000" />
+      <workItem from="1664420213488" duration="3938000" />
+      <workItem from="1664450331624" duration="945000" />
+      <workItem from="1664451770309" duration="8000" />
+      <workItem from="1664465589374" duration="1599000" />
+      <workItem from="1664625603183" duration="515000" />
+      <workItem from="1664774769112" duration="14458000" />
+      <workItem from="1664801104290" duration="3000" />
+      <workItem from="1664822092606" duration="2109000" />
+      <workItem from="1664836710053" duration="11000" />
+      <workItem from="1664840353356" duration="973000" />
+      <workItem from="1664877503269" duration="597000" />
+      <workItem from="1664879474627" duration="466000" />
+      <workItem from="1664880045827" duration="597000" />
+      <workItem from="1664883113208" duration="597000" />
+      <workItem from="1664982265236" duration="11000" />
+      <workItem from="1665067641899" duration="422000" />
+      <workItem from="1665087563605" duration="9000" />
+      <workItem from="1665330366591" duration="156000" />
+      <workItem from="1665333813975" duration="28000" />
+      <workItem from="1665333958693" duration="179000" />
+      <workItem from="1665550977364" duration="330000" />
+      <workItem from="1665553226181" duration="2201000" />
+      <workItem from="1665559027345" duration="18000" />
+      <workItem from="1665564350576" duration="703000" />
+      <workItem from="1665646549138" duration="14224000" />
+      <workItem from="1665680728602" duration="242000" />
+      <workItem from="1665724588612" duration="4121000" />
+      <workItem from="1665753003146" duration="3181000" />
+      <workItem from="1665999379446" duration="631000" />
+      <workItem from="1666020102961" duration="17000" />
+      <workItem from="1666098928133" duration="4950000" />
+      <workItem from="1666113378585" duration="21913000" />
+      <workItem from="1666268617445" duration="10406000" />
+      <workItem from="1666437485435" duration="3917000" />
+      <workItem from="1666504137054" duration="355000" />
+      <workItem from="1666581895548" duration="7398000" />
+      <workItem from="1666813569392" duration="1263000" />
+      <workItem from="1666851191520" duration="96000" />
+      <workItem from="1667304542211" duration="8000" />
+      <workItem from="1667304755621" duration="181000" />
+      <workItem from="1667573976996" duration="726000" />
+      <workItem from="1667822151375" duration="1570000" />
+      <workItem from="1668005321813" duration="25000" />
+      <workItem from="1668498477425" duration="11000" />
+      <workItem from="1668808185180" duration="28340000" />
+      <workItem from="1668841142388" duration="3827000" />
+      <workItem from="1668844990021" duration="25824000" />
+      <workItem from="1668911167232" duration="5191000" />
+      <workItem from="1668922385340" duration="3174000" />
+      <workItem from="1668944723271" duration="11019000" />
+      <workItem from="1668962270056" duration="3154000" />
+      <workItem from="1669058128931" duration="4442000" />
+      <workItem from="1669066317202" duration="16124000" />
+      <workItem from="1669184748214" duration="459000" />
+      <workItem from="1669258037922" duration="2909000" />
+      <workItem from="1669287926462" duration="2590000" />
+      <workItem from="1669467437386" duration="36000" />
+      <workItem from="1669634869504" duration="38000" />
+      <workItem from="1669634932629" duration="443000" />
+      <workItem from="1669636028912" duration="406000" />
+      <workItem from="1669658291105" duration="275000" />
+      <workItem from="1669870716426" duration="46000" />
+      <workItem from="1669870767764" duration="56000" />
+      <workItem from="1669870828931" duration="251000" />
+      <workItem from="1669871414632" duration="3868000" />
+      <workItem from="1669878619341" duration="3693000" />
+      <workItem from="1669886157077" duration="626000" />
+      <workItem from="1669887798686" duration="1521000" />
+      <workItem from="1669889354006" duration="1078000" />
+      <workItem from="1669893609989" duration="42000" />
+      <workItem from="1669893984138" duration="762000" />
+      <workItem from="1669900447271" duration="1084000" />
+      <workItem from="1669996114435" duration="46000" />
+      <workItem from="1669996170392" duration="25000" />
+      <workItem from="1669996211004" duration="137000" />
+      <workItem from="1669997323000" duration="728000" />
+      <workItem from="1669998062730" duration="290000" />
+      <workItem from="1670040753368" duration="77000" />
+      <workItem from="1670064435079" duration="1053000" />
+      <workItem from="1670065496092" duration="14000" />
+      <workItem from="1670065515774" duration="1372000" />
+      <workItem from="1670070030983" duration="1770000" />
+      <workItem from="1670072493390" duration="7935000" />
+      <workItem from="1670081175024" duration="737000" />
+      <workItem from="1670082680946" duration="204000" />
+      <workItem from="1670083012006" duration="624000" />
+      <workItem from="1670221789189" duration="13029000" />
+      <workItem from="1670240040525" duration="203000" />
+      <workItem from="1670240254022" duration="32000" />
+      <workItem from="1670256565935" duration="7000" />
+      <workItem from="1670256578826" duration="216000" />
+      <workItem from="1670338517135" duration="311000" />
+      <workItem from="1670346117700" duration="376000" />
+      <workItem from="1670346553071" duration="1628000" />
+      <workItem from="1670348192766" duration="442000" />
+      <workItem from="1670493378496" duration="2156000" />
+      <workItem from="1670514165063" duration="21000" />
+      <workItem from="1670586160298" duration="88000" />
+      <workItem from="1670596351444" duration="365000" />
+      <workItem from="1670597074350" duration="61000" />
+      <workItem from="1670760615150" duration="2018000" />
+      <workItem from="1670922258024" duration="7168000" />
+      <workItem from="1670934680698" duration="1056000" />
+      <workItem from="1670935908962" duration="620000" />
+      <workItem from="1670956593646" duration="11000" />
+      <workItem from="1670993321400" duration="2536000" />
+      <workItem from="1671252201585" duration="1994000" />
+      <workItem from="1671285804448" duration="1684000" />
+      <workItem from="1671292050470" duration="2000" />
+      <workItem from="1671312671096" duration="778000" />
+      <workItem from="1672742624407" duration="1000" />
+      <workItem from="1673877968413" duration="145000" />
+      <workItem from="1673878120016" duration="440000" />
+      <workItem from="1673878568940" duration="11000" />
+      <workItem from="1673878774867" duration="5034000" />
+      <workItem from="1674021876389" duration="1000" />
+      <workItem from="1674083901526" duration="1252000" />
+      <workItem from="1674091133596" duration="283000" />
+      <workItem from="1674312759294" duration="477000" />
+      <workItem from="1674370265118" duration="5000" />
+      <workItem from="1674439400452" duration="1833000" />
+      <workItem from="1674450944360" duration="9172000" />
+      <workItem from="1674479829536" duration="952000" />
+      <workItem from="1674482177182" duration="103000" />
+      <workItem from="1674526910225" duration="5000" />
+      <workItem from="1674549028240" duration="1000" />
+      <workItem from="1674591384079" duration="30000" />
+      <workItem from="1674591573622" duration="3000" />
+      <workItem from="1674621602783" duration="3000" />
+      <workItem from="1674711678777" duration="4818000" />
+      <workItem from="1674968056042" duration="2474000" />
+      <workItem from="1675073278728" duration="35000" />
+      <workItem from="1675097426074" duration="14000" />
+      <workItem from="1675237757014" duration="18000" />
+      <workItem from="1675238495540" duration="15000" />
+      <workItem from="1675410592205" duration="310000" />
+      <workItem from="1675419154761" duration="1792000" />
+      <workItem from="1675433421999" duration="177000" />
+      <workItem from="1675433609743" duration="351000" />
+      <workItem from="1675496002900" duration="20000" />
+      <workItem from="1675496036181" duration="4837000" />
+      <workItem from="1675515682724" duration="461000" />
+      <workItem from="1675516156331" duration="5545000" />
+      <workItem from="1675532800620" duration="5222000" />
+      <workItem from="1675798418993" duration="152000" />
+      <workItem from="1675798578141" duration="323000" />
+      <workItem from="1675798909504" duration="520000" />
+      <workItem from="1675799436338" duration="79000" />
+      <workItem from="1675799522180" duration="115000" />
+      <workItem from="1675799644282" duration="50000" />
+      <workItem from="1675799700353" duration="106000" />
+      <workItem from="1675799819860" duration="650000" />
+      <workItem from="1675801263386" duration="80000" />
+      <workItem from="1675894588916" duration="184000" />
+      <workItem from="1675894786093" duration="3596000" />
+      <workItem from="1675899062401" duration="298000" />
+      <workItem from="1675918289522" duration="177000" />
+      <workItem from="1676127248855" duration="128000" />
+      <workItem from="1676127389980" duration="34000" />
+      <workItem from="1676127435738" duration="44000" />
+      <workItem from="1676127494483" duration="99000" />
+      <workItem from="1676127604432" duration="1242000" />
+      <workItem from="1676134443814" duration="14107000" />
+      <workItem from="1676150711100" duration="51000" />
+      <workItem from="1676150768726" duration="3037000" />
+      <workItem from="1676191567554" duration="753000" />
+      <workItem from="1676198667231" duration="767000" />
+      <workItem from="1676223510754" duration="569000" />
+      <workItem from="1676224219469" duration="1968000" />
+      <workItem from="1676226200605" duration="3497000" />
+      <workItem from="1676334673676" duration="664000" />
+      <workItem from="1676548128735" duration="2377000" />
+      <workItem from="1676589929317" duration="7985000" />
+      <workItem from="1676598132043" duration="205000" />
+      <workItem from="1676608814971" duration="470000" />
+      <workItem from="1676816809877" duration="1277000" />
+      <workItem from="1676853832852" duration="27000" />
+      <workItem from="1676853884892" duration="10000" />
+      <workItem from="1676855287061" duration="6000" />
+      <workItem from="1676855600227" duration="1680000" />
+    </task>
+    <task id="LOCAL-00009" summary="Completed (Formatives Switch)">
+      <created>1663737897817</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1663737897817</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Completed (Formatives Conditionals, fixed discount condition)">
+      <created>1663741049538</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1663741049538</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Completed (Formatives Switch)">
+      <created>1663840345325</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1663840345325</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Completed (Formatives User Defined Methods)">
+      <created>1664422432219</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1664422432219</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Completed (Formatives User Defined Methods)">
+      <created>1664422450136</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1664422450136</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Completed (Formatives Math Class, fixed desc prompt)">
+      <created>1664424010449</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1664424010449</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Completed (Formatives User Defined Methods)">
+      <created>1664424026993</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1664424026993</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Completed (Formatives Looping Structures)">
+      <created>1665662083306</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1665662083306</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Completed (Formatives Looping Structures)">
+      <created>1665664019163</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1665664019163</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Completed (Formatives Looping Structures)">
+      <created>1665668525021</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1665668525021</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Completed (Formatives Looping Structures)">
+      <created>1665673827954</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1665673827954</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Completed (Formatives Looping Structures)">
+      <created>1665754708473</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1665754708473</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Completed (Formatives Looping Structures)">
+      <created>1666101628024</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1666101628024</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Completed (Formatives Sentinel Controlled Loops)">
+      <created>1666103243726</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1666103243726</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Completed (Formatives Looping Structures)">
+      <created>1666115686219</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1666115686219</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Completed (Formatives Looping Structures Methods)">
+      <created>1666440163812</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1666440163812</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Completed (Formatives Looping Structures Methods)">
+      <created>1666589040545</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1666589040545</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Completed (Formatives Arrays)">
+      <created>1668811688286</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1668811688286</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Completed (Formatives Arrays)">
+      <created>1668817037159</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1668817037159</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Completed (Formatives Arrays)">
+      <created>1668831025213</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1668831025213</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Completed (Formatives Arrays)">
+      <created>1668900425282</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1668900425282</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Completed (Formatives Arrays)">
+      <created>1668902702626</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1668902702626</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Completed (Formatives Arrays)">
+      <created>1668910918938</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1668910918938</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Completed (Formatives Arrays)">
+      <created>1668920914108</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1668920914108</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Completed (Formatives 2D_Arrays)">
+      <created>1668989531880</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1668989531881</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Completed (Formatives 2D_Arrays)">
+      <created>1669011344278</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1669011344278</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Completed (Formatives OOP)">
+      <created>1669901359800</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1669901359800</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Completed (Formatives OOP)">
+      <created>1669997642424</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1669997642424</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Completed (Formatives OOP)">
+      <created>1669998116004</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1669998116004</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Completed (Formatives OOP)">
+      <created>1670079879696</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1670079879696</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Completed (Formatives OOP)">
+      <created>1670080752391</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1670080752391</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Completed (Machine Problem 6)">
+      <created>1670235331065</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1670235331065</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Completed (Machine Problem 6, updated getOperatorSign)">
+      <created>1670530751618</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1670530751618</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Moved into a new folder structure">
+      <created>1673879595980</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1673879595980</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Moved into a new folder structure">
+      <created>1673879620052</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1673879620052</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Moved into a new folder structure">
+      <created>1673879678280</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1673879678280</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Completed Diagnostic Exam">
+      <created>1673883793467</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1673883793467</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Completed Diagnostic Exam">
+      <created>1674085095009</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1674085095009</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Completed Diagnostic Exam">
+      <created>1674313156726</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1674313156726</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Completed Diagnostic Exam">
+      <created>1674434736594</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1674434736594</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Completed OOP FORMATIVE (2nd SEM)">
+      <created>1674460555406</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1674460555406</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Completed OOP FORMATIVE (2nd SEM)">
+      <created>1674482272217</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1674482272217</updated>
+    </task>
+    <task id="LOCAL-00051" summary="Completed OOP FORMATIVE (2nd SEM)">
+      <created>1674721036568</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1674721036569</updated>
+    </task>
+    <task id="LOCAL-00052" summary="Completed OOP FORMATIVE (2nd SEM)">
+      <created>1674721091335</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1674721091335</updated>
+    </task>
+    <task id="LOCAL-00053" summary="Restructured the entire project structure">
+      <created>1675517266722</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1675517266722</updated>
+    </task>
+    <task id="LOCAL-00054" summary="Completed OOP FORMATIVE (2nd SEM)">
+      <created>1675898328831</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1675898328831</updated>
+    </task>
+    <task id="LOCAL-00055" summary="Completed OOP FORMATIVE (2nd SEM)">
+      <created>1676153215927</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1676153215928</updated>
+    </task>
+    <task id="LOCAL-00056" summary="Completed MACHINE PROBLEMS (2nd SEM)">
+      <created>1676598295126</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1676598295127</updated>
+    </task>
+    <task id="LOCAL-00057" summary="Updated">
+      <created>1676598309111</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1676598309111</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Completed (Formative Switch)" />
+    <MESSAGE value="Completed (Formative Conditionals, removed spaghetti code)" />
+    <MESSAGE value="Completed (Machine Problem 02, fixed formatting)" />
+    <MESSAGE value="Completed (Fixed formatting)" />
+    <MESSAGE value="Removed" />
+    <MESSAGE value="Added" />
+    <MESSAGE value="Test" />
+    <MESSAGE value="Completed (Formatives Conditionals, fixed discount condition)" />
+    <MESSAGE value="Completed (Formatives Switch)" />
+    <MESSAGE value="Completed (Formatives Math Class, fixed desc prompt)" />
+    <MESSAGE value="Completed (Formatives User Defined Methods)" />
+    <MESSAGE value="Completed (Formatives Sentinel Controlled Loops)" />
+    <MESSAGE value="Completed (Formatives Looping Structures)" />
+    <MESSAGE value="Completed (Formatives Looping Structures Methods)" />
+    <MESSAGE value="Completed (Formatives Arrays)" />
+    <MESSAGE value="Completed (Formatives 2D_Arrays)" />
+    <MESSAGE value="Completed (Formatives OOP)" />
+    <MESSAGE value="Completed (Machine Problem 6)" />
+    <MESSAGE value="Completed (Machine Problem 6, updated getOperatorSign)" />
+    <MESSAGE value="Moved into a new folder structure" />
+    <MESSAGE value="Completed Diagnostic Exam" />
+    <MESSAGE value="Restructured the entire project structure" />
+    <MESSAGE value="Completed OOP FORMATIVE (2nd SEM)" />
+    <MESSAGE value="Completed MACHINE PROBLEMS (2nd SEM)" />
+    <MESSAGE value="Updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/1st Year/2nd Semester/OOP/OOPInheritanceCircle.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="TextMapCoordinates.TextMap" memberName="characterInput" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Java_College$MathConversion.ic" NAME="MathConversion Coverage Results" MODIFIED="1663068962675" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>MathConversion.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Java_College$Array1DClassAve.ic" NAME="Array1DClassAve Coverage Results" MODIFIED="1668855149239" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Array1DClassAve.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Java_College$Test.ic" NAME="Test Coverage Results" MODIFIED="1663067586948" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Test.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Java_College$Array1DTemperatures.ic" NAME="Array1DTemperatures Coverage Results" MODIFIED="1668659856577" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Array1DTemperatures.*</FILTER>
+    </SUITE>
+  </component>
+</project>
