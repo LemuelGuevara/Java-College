@@ -22,7 +22,7 @@ public class Arrays2D_Transpose
        for (int i = 0; i < size; i++)
        {
            for (int j = 0; j < size; j++)
-               array[i][j] = rand.nextInt(1, 20);
+               array[i][j] = rand.nextInt(20) + 1;
        }
 
        return array;

@@ -59,7 +59,7 @@ class ArrayFactory
         int[] array = new int[ARRAY_SIZE];
 
         for (int i = 0; i < ARRAY_SIZE; i++)
-            array[i] = rand.nextInt(1, 99);
+            array[i] = rand.nextInt(99) + 1;
 
         return array;
     }

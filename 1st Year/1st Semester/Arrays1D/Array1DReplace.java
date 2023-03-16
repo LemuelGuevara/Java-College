@@ -41,7 +41,7 @@ public class Array1DReplace
 
         // Load array with random integers ranging 35-50
         for (int i = 0; i < dataArr.length; i++)
-            dataArr[i] = rand.nextInt(35, 50);
+            dataArr[i] = rand.nextInt(50) + 35;
 
         // Program description
         System.out.println("\nThis program replaces elements in array with the input of a user");
