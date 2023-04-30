@@ -35,7 +35,7 @@ public class Diagnostic_Exam
         int[] array = new int[arraySize];
 
         for (int i = 0; i < arraySize; i++)
-            array[i] = rand.nextInt(10, 30);
+            array[i] = rand.nextInt(30) + 10;
 
         return array;
     }

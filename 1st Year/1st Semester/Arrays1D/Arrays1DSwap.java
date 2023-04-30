@@ -29,7 +29,7 @@ public class Arrays1DSwap
         Random rand = new Random();
 
         for (int i = 0; i < array.length; i++)
-            array[i] = rand.nextInt(10, 30);
+            array[i] = rand.nextInt(30) + 10;
 
         return array;
     }

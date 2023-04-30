@@ -13,7 +13,7 @@ public class Arrays2D_Frequency
         Random rand = new Random();
 
         for (int i = 0; i < size; i++)
-            array[i] = rand.nextInt(1, 20);
+            array[i] = rand.nextInt(20) + 1;
 
         return array;
     }

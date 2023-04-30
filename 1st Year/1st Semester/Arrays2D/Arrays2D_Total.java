@@ -20,7 +20,7 @@ public class Arrays2D_Total
         for (int i = 0; i < array.length; i++)
         {
             for (int j = 0; j < array[i].length; j++)
-                array[i][j] = rand.nextInt(10, 20);
+                array[i][j] = rand.nextInt(20) + 10;
         }
 
         System.out.println(Arrays.toString(array));
